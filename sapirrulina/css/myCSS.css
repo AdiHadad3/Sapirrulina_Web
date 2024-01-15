@@ -1,0 +1,217 @@
+﻿@import url('myCSS.css');
+
+img.parallax-slider {
+    width: auto !important;
+    height: auto !important;
+    max-width: 100% !important;
+    left: 0px !important;
+    top: 5px;
+}
+
+h4.tm-gallery-title {
+    margin: 0px;
+}
+
+img.img-fluid.tm-gallery-img {
+    height: 225px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+h4.tm-gallery-title, p.tm-gallery-description {
+    text-align: center;
+}
+
+.tm-footer img {
+    width: 55px;
+}
+
+.tm-footer p {
+    font-size: 12px;
+}
+
+.tm-gallery-title {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Title1, .Title2 {
+    color: #92c066;
+    border-bottom: double;
+}
+
+h4.tm-gallery-title {
+    color: #2f956d;
+}
+
+.leftDiv {
+    width: 30%;
+    float: left;
+}
+
+.rightDiv {
+    width: 30%;
+    float: left;
+}
+
+.listR {
+    padding: 17px;
+}
+
+.leftDiv img {
+    height: auto;
+    width: 100%;
+    float: left;
+}
+
+
+.bottomDiv {
+    width: 100%;
+}
+
+
+
+img.img-fluid.tm-gallery-img {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+    img.img-fluid.tm-gallery-img:hover {
+        opacity: 0.4;
+    }
+
+table {
+    border-collapse: collapse;
+    font-size: 13px;
+    text-align: center;
+    table-layout: fixed;
+    width: 240px;
+    margin-top: 10px;
+}
+
+body, .form-control {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.row.recipe {
+    flex-direction: row-reverse;
+}
+
+main, .mainAbout {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.aboutMe {
+    text-align: center;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+.myImage img {
+    border-radius: 50%;
+    width: 225px;
+}
+
+.mainAbout {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.indexPage {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+a.tm-paging-link.active {
+    height: 25px;
+}
+
+a.tm-paging-link {
+    height: 25px;
+}
+.tm-contact-social {
+    margin-top: 50px;
+}
+a.tm-social-link {
+    font-size: 30px;
+    margin-left:20px;
+}
+.tm-address-box{
+    display:flex;
+    justify-content:center;
+    margin:auto;
+}
+
+@media only screen and (min-width: 992px) {
+    .leftDiv img {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    img.parallax-slider {
+        padding-top: 5px;
+    }
+
+    .leftDiv img {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 768px ) {
+    .placeholder {
+        height: 180px;
+    }
+
+    img.parallax-slider {
+        top: 10px !important;
+    }
+
+    .mainAbout {
+        flex-direction: column-reverse;
+        margin-top: 0px;
+    }
+
+    .aboutMe {
+        width: 100%
+    }
+
+    .myImage img {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 0px 150px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .placeholder {
+        height: 117px;
+    }
+
+    img.parallax-slider {
+        top: 5px !important;
+    }
+
+    .mainAbout {
+        flex-direction: column-reverse;
+        margin-top: 0px;
+    }
+
+    .aboutMe {
+        width: 100%
+    }
+
+    .myImage img {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 20px 50px;
+    }
+}
+

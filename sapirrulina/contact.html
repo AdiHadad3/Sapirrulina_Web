@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Sapirrulina</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" />
+	<link href="css/all.min.css" rel="stylesheet" />
+	<link href="css/templatemo-style.css" rel="stylesheet" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+	<link href="css/myCSS.css" rel="stylesheet" />
+	<link rel="icon" type="image/x-icon" href="
+		  /לוגו-modified.png">
+</head>
+<!--
+
+Simple House
+
+https://templatemo.com/tm-539-simple-house
+
+-->
+<body> 
+
+	<div class="container" dir="rtl">
+		<!-- Top box -->
+		<!-- Logo & Site Name -->
+		<div class="placeholder">
+			<div class="parallax-window" data-parallax="scroll" data-image-src="img/logoSapirrulina.jpg"></div>
+		</div>
+		<div class="tm-header">
+			<ul class="tm-nav-ul">
+				<li class="tm-nav-li"><a href="index.html" class="tm-nav-link ">ראשי</a></li>
+				<li class="tm-nav-li"><a href="about.html" class="tm-nav-link">קצת עלי</a></li>
+				<li class="tm-nav-li"><a href="contact.html" class="tm-nav-link active">צור קשר</a></li>
+			</ul>
+		</div>
+
+		<main>
+			<header class="row tm-welcome-section">
+				<h2 class="col-12 text-center tm-section-title">יצירת קשר</h2>
+				<p class="col-12 text-center">לכל שאלה או חוות דעת מוזמנים ליצור איתי קשר</p>
+			</header>
+
+			<div class="tm-container-inner-2 tm-contact-section">
+				<div class="row">
+					<div class="col-md-6">
+						<form action="" method="POST" class="tm-contact-form">
+							<div class="form-group">
+								<input type="text" name="name" class="form-control" placeholder="שם" required="" />
+							</div>
+
+							<div class="form-group">
+								<input type="email" name="email" class="form-control" placeholder="אימייל" required="" />
+							</div>
+
+							<div class="form-group">
+								<textarea rows="5" name="message" class="form-control" placeholder="הודעה" required=""></textarea>
+							</div>
+
+							<div class="form-group tm-d-flex">
+								<button type="submit" class="tm-btn tm-btn-success tm-btn-right">
+									שלח
+								</button>
+							</div>
+						</form>
+					</div>
+					<div class="col-md-6">
+						<div class="tm-address-box">
+							<div class="tm-contact-social">
+								<a href="https://www.facebook.com/profile.php?id=100064004324481&mibextid=LQQJ4d" class="tm-social-link"><i class="fab fa-facebook tm-social-icon"></i></a>
+								<a href="https://instagram.com/sapirrulina?igshid=YmMyMTA2M2Y=" class="tm-social-link"><i class="fab fa-instagram tm-social-icon"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			var acc = document.getElementsByClassName("accordion");
+			var i;
+			
+			for (i = 0; i < acc.length; i++) {
+			  acc[i].addEventListener("click", function() {
+			    this.classList.toggle("active");
+			    var panel = this.nextElementSibling;
+			    if (panel.style.maxHeight) {
+			      panel.style.maxHeight = null;
+			    } else {
+			      panel.style.maxHeight = panel.scrollHeight + "px";
+			    }
+			  });
+			}	
+		});
+	</script>
+</body>
+</html>
